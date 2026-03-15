@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sravan | Portfolio</title>
+    <meta name="description" content="Portfolio of Sravan, a BTech CSE (AIML) Student and Aspiring Software Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lottie Player Script -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <!-- Mobile Lottie Background (Visible only on phones) -->
+    <div class="lottie-bg">
+        <!-- REPLACE THE 'src' URL WITH YOUR ACTUAL LOTTIE JSON URL OR LOCAL PATH -->
+        <lottie-player src="Background Full Screen-Night (1).json" background="transparent" speed="1"
+            style="width: 100%; height: 100%;" preserveAspectRatio="xMidYMid slice" loop autoplay></lottie-player>
+    </div>
+
+    <!-- Navbar -->
+    <header id="header" class="header">
+        <nav class="nav-container">
+            <a href="#home" class="nav-logo">Sravan<span>.</span></a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content">
+                    <span class="home-subtitle">BTech CSE (AIML) Student | Aspiring Software Developer</span>
+                    <h1 class="home-title">Hello, I'm <br><span> Manne Sravan</span></h1>
+                    <p class="home-description">
+                        I am passionate about Artificial Intelligence, web development, and programming. I love turning
+                        complex problems into simple, beautiful, and intuitive designs.
+                    </p>
+                    <div class="home-buttons">
+                        <!-- <a href="#resume" class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a> -->
+                        <a href="assets/resume-0000.png" class="btn btn-primary" download="resume.pdf"> Download CV</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+                    </div>
+                    <div class="home-social">
+                        <a href="https://www.linkedin.com/in/mannesravan" target="_blank" class="home-social-link"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Sravan4858" target="_blank" class="home-social-link"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/sravan____mj?igsh=eWRveHMxZjJhcDhk" target="_blank"
+                            class="home-social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <div class="home-img-wrapper">
+                        <!-- Placeholder Image -->
+                        <img src="assets/sravan ai photos.jpg" alt="Sravan Profile Placeholder">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section class="about section reveal" id="about">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">About Me</h2>
+                    <span class="section-subtitle">My Introduction</span>
+                </div>
+                <div class="about-container grid">
+                    <div class="about-data">
+                        <p class="about-description">
+                            I am a second-year BTech student in Computer Science with a specialization in Artificial
+                            Intelligence and Machine Learning. I am passionate about web development, software
+                            engineering, and building practical real-world solutions.
+                        </p>
+                        <div class="about-info grid">
+                            <div class="about-box">
+                                <i class="fas fa-graduation-cap about-icon"></i>
+                                <h3 class="about-title">Education</h3>
+                                <span class="about-subtitle">BTech 2nd Year (Currently pursuing)</span>
+                            </div>
+                            <div class="about-box">
+                                <i class="fas fa-laptop-code about-icon"></i>
+                                <h3 class="about-title">Interests</h3>
+                                <span class="about-subtitle">AI & Web Dev and AI and modern web applications </span>
+                            </div>
+                            <div class="about-box">
+                                <i class="fas fa-bullseye about-icon"></i>
+                                <h3 class="about-title">Goal</h3>
+                                <span class="about-subtitle">Aspiring Software Developer focused on building practical,
+                                    efficient, and user-friendly solutions.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section reveal" id="skills">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">My Skills</h2>
+                    <span class="section-subtitle">Technical level</span>
+                </div>
+                <div class="skills-container grid">
+
+                    <div class="skills-content">
+                        <h3 class="skills-title"><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">Python</h3>
+                                        <span class="skills-number">60%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 90%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">Java</h3>
+                                        <span class="skills-number">65%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 75%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">C</h3>
+                                        <span class="skills-number">70%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 80%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h3 class="skills-title"><i class="fas fa-globe"></i> Web Development</h3>
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">HTML</h3>
+                                        <span class="skills-number">75%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 95%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">CSS</h3>
+                                        <span class="skills-number">50%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 85%;"></span>
+                                    </div>
+                                </div>
+                                <div class="skills-data">
+                                    <div class="skills-titles">
+                                        <h3 class="skills-name">JavaScript</h3>
+                                        <span class="skills-number">40%</span>
+                                    </div>
+                                    <div class="skills-bar"><span class="skills-percentage" style="width: 80%;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h3 class="skills-title"><i class="fas fa-tools"></i> Tools</h3>
+                        <div class="skills-badges">
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">GitHub</span>
+                            <span class="skill-badge">Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-content">
+                        <h3 class="skills-title"><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Problem Solving</span>
+                            <span class="skill-badge">Communication</span>
+                            <span class="skill-badge">Teamwork</span>
+            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section reveal" id="projects">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Projects</h2>
+                    <span class="section-subtitle">Most recent work</span>
+                </div>
+                <div class="projects-container grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/ChatGPT Image Mar 15, 2026, 12_16_22 PM.png"
+                                alt="Driver Drowsiness Detection System">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Driver Drowsiness Detection System</h3>
+                            <p class="project-description">A smart AI-based driver monitoring system that observes eye movements and blinking patterns to identify signs of fatigue or drowsiness. Once detected, it alerts the driver in real time, helping improve road safety and reduce accident risks.</p>
+                            <div class="project-tech">
+                                <h3>Frontend</h3>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                  
+                                 <h3>Backend</h3>
+                                 <span>Python</span>
+                                 <span>Flask or Django</span>
+                               
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Sravan4858/Driver-Drowsiness-Detection-System-" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="assets/WhatsApp Video 2026-03-15 at 12.07.04 PM.mp4" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <!-- <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&w=600&q=80"
+                                alt="Quiz App Website">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Quiz App Website</h3>
+                            <p class="project-description">A dynamic and responsive web application for taking quizzes
+                                across various categories with real-time score tracking, responsive UI, and timer
+                                functionality.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </article> -->
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/WhatsApp Image 2026-03-15 at 4.17.36 PM.jpeg"
+                                alt="ATS Resume Screening System">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">ATS Resume Screening System</h3>
+                            <p class="project-description">A smart HR technology solution that automates resume screening, compares candidate profiles with job needs, and predicts suitability scores.
+                                The system works by collecting candidate details and resumes through an application form. It then extracts important information such as skills.
+                            </p>
+                            <br>
+                            <div class="project-tech">
+                                <span>JSON</span>
+                                <span>JavaScript</span>
+                                <span>n8n– automation workflow builder</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                                <a href="assets/WhatsApp Video 2026-03-15 at 4.13.28 PM.mp4" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section class="education section reveal" id="education">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Education</h2>
+                    <span class="section-subtitle">My academic journey</span>
+                </div>
+                <div class="education-container">
+                    <div class="timeline">
+                        <!-- Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">BTech in Computer Science (AIML)</h3>
+                                <span class="timeline-subtitle">Currently pursuing</span>
+                                <p class="timeline-text">Focusing on Artificial Intelligence, Machine Learning
+                                    algorithms, Data Structures, and specialized software development to solve
+                                    real-world problems.</p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Diploma (Computer Science and Engineering)</h3>
+                                <span class="timeline-subtitle">Completed, 2022-2025</span>
+                                <p class="timeline-text">Developed a strong foundation in programming, computer science
+                                    concepts, and analytical thinking through hands-on technical learning.</p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Geeetha high school (SSC)</h3>
+                                <span class="timeline-subtitle">Completed, 2021-2022</span>
+                                <p class="timeline-text">Completed secondary education with a strong interest in
+                                    science, mathematics, and technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS & ACHIEVEMENTS SECTION -->
+        <section class="certifications section reveal" id="certifications">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Certifications & Achievements</h2>
+                    <span class="section-subtitle">Milestones</span>
+                </div>
+                <div class="certifications-container grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                        <h3 class="cert-title">Machine Learning Course</h3>
+                        <p class="cert-desc">Completed coursework on building and optimizing Machine Learning models.
+                        </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+                        <h3 class="cert-title">Hackathon Participant</h3>
+                        <p class="cert-desc">Competed in a university-level coding hackathon building an innovative web
+                            solution.</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="cert-title">Web Development</h3>
+                        <p class="cert-desc">Mastered front-end web technologies including modern HTML5, CSS3, and
+                            JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION -->
+        <section class="resume section reveal" id="resume">
+            <div class="container resume-container">
+                <div class="resume-content text-center">
+                    <h2 class="section-title">Check Out My Resume</h2>
+                    <p class="resume-description">Download my resume to get the full details of my academic background,
+                        technical skills, and project experience.</p>
+                    <a href="#" class="btn btn-primary btn-lg" download><i class="fas fa-download"></i> Download Resume
+                        PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section reveal" id="contact">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <h2 class="section-title">Contact Me</h2>
+                    <span class="section-subtitle">Get in touch</span>
+                </div>
+                <div class="contact-container grid">
+                    <div class="contact-info">
+                        <h3 class="contact-title">Talk to me</h3>
+                        <div class="contact-info-list">
+                            <div class="contact-card">
+                                <i class="fas fa-envelope contact-card-icon"></i>
+                                <h4 class="contact-card-title">Email</h4>
+                                <span class="contact-card-data">mannesravan82@gmail.com</span>
+                                <a href="mailto:mannesravan82@gmail.com" class="contact-button">Write me <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="contact-card">
+                                <i class="fa-solid fa-phone contact-card-icon"></i>
+                                <h4 class="contact-card-title">Phone</h4>
+                                <span class="contact-card-data">+919398354858</span>
+                                <a href="tel:+919398354858" class="contact-button">Call me <i
+                                        class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="contact-card">
+                                <i class="fas fa-map-marker-alt contact-card-icon"></i>
+                                <h4 class="contact-card-title">Location</h4>
+                                <span class="contact-card-data">Hyberabad <a
+                                        href="https://maps.app.goo.gl/HBYS8gWuQNABVPtB9"></a> </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <h3 class="contact-title">Send me a message</h3>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form"
+                            id="contact-form">
+                            <input type="hidden" name="access_key" value="96235442-e6e3-46cb-b8d1-8bb8500eb1b9">
+                            <div class="contact-form-group">
+                                <div class="contact-form-div">
+                                    <label class="contact-form-tag">Name</label>
+                                    <input type="text" name="name" placeholder="Enter your name"
+                                        class="contact-form-input" required>
+                                </div>
+                                <div class="contact-form-div">
+                                    <label class="contact-form-tag">Email</label>
+                                    <input type="email" name="email" placeholder="Enter your email"
+                                        class="contact-form-input" required>
+                                </div>
+                            </div>
+                            <div class="contact-form-div contact-form-area">
+                                <label class="contact-form-tag">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Write your project details" class="contact-form-input"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">Sravan<span>.</span></a>
+                <p class="footer-description">BTech CSE (AIML) Student & Aspiring Software Developer.</p>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#projects" class="footer-link">Projects</a></li>
+                    <li><a href="#skills" class="footer-link">Skills</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Social</h3>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/mannesravan" target="_blank" class="footer-social-link"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Sravan4858" target="_blank" class="footer-social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/sravan____mj?igsh=eWRveHMxZjJhcDhk" target="_blank"
+                        class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-copy">&#169; Sravan. All rights reserved.</p>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- CUSTOM SCRIPTS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
